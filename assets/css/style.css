@@ -1,0 +1,142 @@
+/*Box model properties for all elements on the webpage*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+/*Selectors with consistent properties throughout the whole webpage*/
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+body {
+    background-color: #d9dcd6;
+}
+
+
+/*Specifies the size and color of the heading bar and the color of text within it*/
+.header {
+    padding: 20px;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+    /*Specifies how the logo is to be displayed, what the font size is, and a change of color in a portion of the logo*/
+    .logo {
+        display: inline-block;
+        font-size: 48px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+            #logo-seo {
+            color: #d9dcd6;
+            }
+    /*Specifies how the navigation bar will be displayed*/
+    .navbar {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    }
+        /*Reflecting specifics to nav bar text-sections: to appear on the same line, without bullet points, and sets marginal space to the left*/ 
+        .nav-items {
+        list-style-type: none;
+        }
+
+        .nav-items li {
+        display: inline-block;
+        margin-left: 25px;
+        }
+
+
+/*Properties for the main background image (hero section) of the webpage*/
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+
+/*Specifying how the section of offered services will appear in relation to the whole webpage*/
+.services-section {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+    /*Specifies box model, font, background color, and text color for each offered service section*/                     
+    .service {
+        margin-bottom: 20px;
+        padding: 50px;
+        height: 300px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        background-color: #0072bb;
+        color: #ffffff;
+}
+        /*How the image within each offered service section will appear within above^ specified box model*/
+        .service img {
+            max-height: 200px;
+        }
+            .float-left {
+                float: left;
+                margin-right: 25px;
+            }
+    
+            .float-right {
+                float: right;
+                margin-left: 25px;
+            }
+        /*Specifies font size and margin for headers within each offered service section*/
+        .service h2 {
+            margin-bottom: 20px;
+            font-size: 36px;
+        }
+
+
+/*Specifying how the section of benefits will appear in relation to the whole webpage*/      
+.benefits-section {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+    /*Specifies margin and color for text within benefits section*/
+    .benefit {
+        margin-bottom: 32px;
+        color: #ffffff;
+    }
+        /*Specifies how each image within benefits section will be displayed*/
+        .benefit img {
+            display: block;
+            margin: 10px auto;
+            max-width: 150px;
+        }
+
+        
+/*Specifies box model, font family, and text alignment for webpage's footer*/        
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+    /*Sets font size of heading within footer*/
+    .footer h2 {
+        font-size: 20px;
+    }
+
